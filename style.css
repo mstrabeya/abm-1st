@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    background-color: #23232e;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+}
+.sec{
+    text-align: center;
+    color: #464b4f;
+}
+.container{
+    margin: 10px 25%;
+}
+img{
+    width: 100%;
+}
+/*----header section---*/
+header img{
+    width: 8%;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 20px 0px;
+}
+header p{
+    font-size: 15px;
+    line-height: 30px;
+}
+header i{
+    display: block;
+    padding: 10px;
+    margin: 70px 0px 0px 0px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+/*--------what i do section-----*/
+.what-i-do{
+    overflow: hidden;
+}
+.what-i-do p{
+    line-height: 25px;
+    color: #464b4f;
+}
+.col{
+    width: 31.33%;
+    margin: 10px 1%;
+    float: left;
+    text-align: left;
+}
+.col h3{
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+/*----- My Work---*/
+.my-work{
+    overflow: hidden;
+}
+.my-work .menu a{
+    margin: 2px 10px;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.active{
+    border-bottom: 1px solid white;
+}
+.menu a:hover{
+    border-bottom: 1px solid white;
+    
+}
+.col img{
+    width: 100%;
+}
+.my-work .col h3{
+    font-size: 10px;
+    text-align: center;
+}
+.my-work .col p{
+    font-size: 9px;
+    text-align: center;
+    color: #7b77c9;
+}
+button{
+    background-color: #7b77c9;
+    padding: 7px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 25px; 
+}
+/*---Photography----*/
+.photography{
+    overflow: hidden;
+}
+.photography p{
+    padding: 15px 0px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #888a8b;
+}
+/*--Subscribe--*/
+.subscribe{
+    padding: 5% 0px;
+}
+.subscribe p{
+    padding: 10px 0px;
+    line-height: 20px;
+}
+.subscribe input{
+    padding: 7px 0px 7px 8px;
+    border: none;
+    border-radius: 3px;
+}
+@media screen and (max-width: 760px){
+    .container{
+    margin: 10px 10%;
+    }
+    .col{
+        width: 100%;
+        text-align: center;
+    }
+    .my-work .menu a{
+        margin: 2px 3px;
+        font-size: 14px;
+    }
+}
